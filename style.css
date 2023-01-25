@@ -11,6 +11,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/*Header Section*/
+
 .header {
   display: flex;
   justify-content: space-between;
