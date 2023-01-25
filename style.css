@@ -73,3 +73,60 @@ body {
 .getApp:hover {
   background-color: rgba(240, 255, 255, 0.412);
 }
+
+/*Slider Section*/
+
+.swiper {
+  height: 100vh;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+/* .location a:visited,.getApp{
+    color: azure;
+} */
+
+.swiper-slide p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 80px;
+  color: azure;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+}
+
+.btn {
+  /* margin: auto; */
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: azure;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.867);
+}
+
+.btn:hover {
+  /* color: coral; */
+  background-color: aliceblue;
+  /* width: 50px; */
+  padding: 16px 21px;
+}
