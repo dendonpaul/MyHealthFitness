@@ -48,6 +48,7 @@ body {
 .menu ul li:hover {
   color: grey;
   background-color: azure;
+  transition: 0.3s ease-in-out;
 }
 
 .menu ul li {
@@ -56,6 +57,11 @@ body {
   /* font-size: 22px; */
   /* color: azure; */
   padding: 20px;
+  cursor: pointer;
+}
+.menu ul a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .location {
@@ -146,7 +152,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
+  position: relative;
+}
+.pricing h2 {
+  position: absolute;
 }
 
 .packages {
@@ -158,8 +168,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   /* gap: 15px; */
-  color: rgb(78, 76, 76);
-  background-color: #b6b8b9f6;
+  color: azure;
+  background-color: #31313143;
   width: 25vw;
   height: 400px;
 }
@@ -174,6 +184,7 @@ body {
 
 .packages h1 {
   font-size: 35px;
+  color: white;
 }
 
 .packages p {
@@ -199,4 +210,98 @@ body {
 
 .packages:hover {
   background-color: rgb(137, 170, 170);
+}
+
+/*Features*/
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.feature {
+  width: 20vw;
+  height: 300px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  color: white;
+  -webkit-box-shadow: 0px 0px 11px -3px rgba(255, 252, 255, 1);
+  -moz-box-shadow: 0px 0px 11px -3px rgba(255, 252, 255, 1);
+  box-shadow: 0px 0px 11px -3px rgba(255, 252, 255, 1);
+  position: relative;
+  border-radius: 10px;
+}
+.feature h3 {
+  font-size: 45px;
+  position: relative;
+  z-index: 2;
+}
+.feature p {
+  position: relative;
+  z-index: 2;
+}
+.feature button {
+  visibility: hidden;
+  border: none;
+  font-size: 14px;
+  padding: 5px 15px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.feature .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.feature .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.246);
+}
+
+.yoga {
+  background-image: url("image/yoga.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.sandc {
+  background-image: url("image/sandc.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+.workout {
+  background-image: url("image/workout.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.dancing {
+  background-image: url("image/dancing.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+.boxing {
+  background-image: url("image/boxing.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.meditation {
+  background-image: url("image/meditation.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.cardio {
+  background-image: url("image/cardio.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.pilates {
+  background-image: url("image/pilates.jpg");
+  background-size: cover;
+  background-position: center center;
 }
