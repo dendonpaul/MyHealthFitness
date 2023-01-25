@@ -12,10 +12,6 @@ body {
 }
 
 /*Header Section*/
-.main-container {
-  /* position: relative; */
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +34,7 @@ body {
   position: sticky;
   top: 0;
   background-color: rgba(0, 0, 0, 0.53);
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .menu ul {
