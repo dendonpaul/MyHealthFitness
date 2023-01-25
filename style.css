@@ -12,6 +12,9 @@ body {
 }
 
 /*Header Section*/
+.main-container {
+  position: relative;
+}
 
 .header {
   display: flex;
@@ -19,13 +22,15 @@ body {
   align-items: center;
   background-color: transparent;
   max-height: 100px;
-  min-height: 100px;
+  min-height: 80px;
   padding: 0% 10px;
   color: azure;
   font-size: 18px;
   text-transform: uppercase;
   font-family: sans-serif;
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   z-index: 2;
 }
 
