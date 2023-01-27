@@ -152,7 +152,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 150px;
+  margin-top: 200px;
   position: relative;
 }
 .pricing h2 {
@@ -210,15 +210,25 @@ body {
 
 .packages:hover {
   background-color: rgb(137, 170, 170);
+  transition: 0.8s ease-in-out;
 }
 
 /*Features*/
 .features {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 200px;
   flex-wrap: wrap;
   row-gap: 50px;
+  position: relative;
+}
+.features h2,
+.pricing h2 {
+  font-size: 45px;
+  color: azure;
+  position: absolute;
+  top: 0;
+  margin-top: -100px;
 }
 .feature {
   width: 20vw;
@@ -241,6 +251,7 @@ body {
   position: relative;
   z-index: 2;
 }
+
 .feature p {
   position: relative;
   z-index: 2;
@@ -317,7 +328,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 45px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   color: azure;
 }
 
@@ -347,4 +358,9 @@ body {
 
 .details h4 {
   font-size: 15px;
+}
+
+/*Footer*/
+footer {
+  min-height: 200px;
 }
