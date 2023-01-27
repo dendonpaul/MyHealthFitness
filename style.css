@@ -305,3 +305,46 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+/*About Section*/
+
+.about {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./image/About.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  margin-top: 100px;
+  color: azure;
+}
+
+.icons {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 130px;
+  color: azure;
+  height: 200px;
+}
+
+.icons .icon-height {
+  height: 80px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 8vw;
+  justify-content: flex-start;
+}
+
+.details h4 {
+  font-size: 15px;
+}
