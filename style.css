@@ -45,10 +45,25 @@ body {
   font-weight: 700;
 }
 
-.menu ul li:hover {
+/* .menu ul li:hover {
   color: grey;
   background-color: azure;
   transition: 0.3s ease-in-out;
+} */
+
+.menu ul li::after {
+  content: "";
+  background-color: red;
+  height: 100%;
+  width: 00%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.menu ul li:hover::after {
+  width: 100%;
+  transition: width 1s ease-in-out;
 }
 
 .menu ul li {
@@ -58,6 +73,7 @@ body {
   /* color: azure; */
   padding: 20px;
   cursor: pointer;
+  position: relative;
 }
 .menu ul a {
   color: inherit;
@@ -221,6 +237,7 @@ body {
   flex-wrap: wrap;
   row-gap: 50px;
   position: relative;
+  padding-bottom: 50px;
 }
 .features h2,
 .pricing h2 {
@@ -355,7 +372,6 @@ body {
   gap: 20px;
   width: 12vw;
   justify-content: flex-start;
-  background-color: ;
 }
 
 .details h4 {
