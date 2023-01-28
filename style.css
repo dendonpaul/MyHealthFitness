@@ -233,7 +233,7 @@ body {
 .features {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 200px;
+  margin-top: 100px;
   flex-wrap: wrap;
   row-gap: 50px;
   position: relative;
