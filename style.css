@@ -338,7 +338,7 @@ body {
   margin-top: 80px;
   justify-content: center;
   align-items: flex-start;
-  gap: 130px;
+  gap: 20px;
   color: azure;
   height: 200px;
 }
@@ -353,8 +353,9 @@ body {
   align-items: center;
   text-align: center;
   gap: 20px;
-  width: 8vw;
+  width: 12vw;
   justify-content: flex-start;
+  background-color: ;
 }
 
 .details h4 {
