@@ -52,17 +52,16 @@ let trainers = document.querySelectorAll(".training");
 for (let i = 0; i <= trainers.length - 1; i++) {
   //unhide
   trainers[i].addEventListener("mouseover", (e) => {
-    console.log((trainersDetails[i].style.height = "100px"));
-    console.log(
-      (trainersDetails[i].style.transition =
-        "height 1s ease-in-out, opacity 1s ease-in-out")
-    );
-    console.log((trainersDetails[i].style.opacity = "1"));
+    trainersDetails[i].style.height = "100%";
+    trainersDetails[i].style.transition =
+      "height 0.5s ease-in, opacity 0.5s ease-in";
+    trainersDetails[i].style.opacity = "1";
   });
   //Hide on mouse out
   trainers[i].addEventListener("mouseout", (e) => {
-    console.log((trainersDetails[i].style.opacity = "0"));
-    console.log((trainersDetails[i].style.height = "80px"));
-    console.log((trainersDetails[i].style.transition = "none"));
+    trainersDetails[i].style.opacity = "0";
+    trainersDetails[i].style.height = "80px";
+    trainersDetails[i].style.transition =
+      "height 0.5s ease-out, opacity 0.5s ease-out";
   });
 }
