@@ -240,7 +240,8 @@ body {
   padding-bottom: 50px;
 }
 .features h2,
-.pricing h2 {
+.pricing h2,
+.trainers h2 {
   font-size: 45px;
   color: azure;
   position: absolute;
@@ -376,6 +377,72 @@ body {
 
 .details h4 {
   font-size: 15px;
+}
+/* Trainers */
+
+.trainers {
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.training {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  /* background-color: aqua; */
+}
+
+.trainer-details {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.456);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+.trainer-details button {
+  padding: 5px;
+}
+
+.alex {
+  background-image: url("./image/trainer1.jpg");
+  background-size: cover;
+}
+
+.parth {
+  background-image: url("./image/trainer2.jpg");
+  background-size: cover;
+}
+
+.liza {
+  background-image: url("./image/trainer3.jpg");
+  background-size: cover;
+}
+
+.prisha {
+  background-image: url("./image/trainer4.jpg");
+  background-size: cover;
+}
+
+.gen {
+  background-image: url("./image/trainer5.jpg");
+  background-size: cover;
+}
+
+.olive {
+  background-image: url("./image/trainer6.jpg");
+  background-size: cover;
 }
 
 /*Footer*/
