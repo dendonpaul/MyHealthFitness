@@ -417,6 +417,20 @@ body {
   padding: 5px;
 }
 
+.trainer-details ul li {
+  list-style: none;
+}
+.trainer-details ul li:hover {
+  color: red;
+}
+.trainer-details ul li .svg-inline--fa {
+  height: 2em;
+}
+.trainer-details ul {
+  display: flex;
+  gap: 10px;
+}
+
 .alex {
   background-image: url("./image/trainer1.jpg");
   background-size: cover;
